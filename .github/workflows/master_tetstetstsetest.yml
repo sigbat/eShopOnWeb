@@ -4,9 +4,7 @@
 name: Azure App Service - tetstetstsetest(Production), Build and deploy DotnetCore app
 
 on:
-  push:
-    branches:
-      - master
+  web_dispatcher
 
 jobs:
   build-and-deploy:
