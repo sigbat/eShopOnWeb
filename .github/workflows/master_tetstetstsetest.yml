@@ -3,8 +3,8 @@
 
 name: Azure App Service - tetstetstsetest(Production), Build and deploy DotnetCore app
 
-on:
-  web_dispatcher
+on: 
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
